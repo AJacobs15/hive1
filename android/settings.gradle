@@ -1,0 +1,3 @@
+rootProject.name = 'hive1'
+
+include ':app'
