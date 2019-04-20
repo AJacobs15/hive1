@@ -7,7 +7,6 @@
  */
 
 import React, {Component} from 'react';
-import {Platform, StyleSheet, Text, View} from 'react-native';
 import {
   Platform,
   StatusBar,
@@ -18,6 +17,8 @@ import {
   TouchableOpacity,
   KeyboardAvoidingView,
 } from 'react-native';
+
+import AppNavigator from './navigation/AppNavigator';
 
 
 const instructions = Platform.select({
